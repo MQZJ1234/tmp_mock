@@ -8,7 +8,6 @@ public class Person {
     private String username;
     private String mobile;
     private String password;
-    private  int times ;
-
+    private int times;
 
 }

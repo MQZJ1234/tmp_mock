@@ -163,7 +163,6 @@ public class TmpController {
         System.out.println("----------------------------------------");
 
         Cookie cookie1 = new Cookie("sid2-1", "testGetWithCookies--1");
-        // cookie1.setDomain("www");
         cookie1.setMaxAge(2000);
         Cookie cookie2 = new Cookie("sid2-2", "testGetWithCookies--2");
         response.addCookie(cookie1);

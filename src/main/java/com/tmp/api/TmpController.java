@@ -161,6 +161,7 @@ public class TmpController {
         }
 
         System.out.println("----------------------------------------");
+        System.out.println("----------------------------------------");
 
         Cookie cookie1 = new Cookie("sid2-1", "testGetWithCookies--1");
         cookie1.setMaxAge(2000);
